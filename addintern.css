@@ -19,6 +19,7 @@ nav{
     background-color: #D7E2D9;
     box-shadow: 0px 0.5px 10px rgb(207, 199, 199);
     position: fixed;
+    top: 0%;
     width: 100%;
     z-index: 2;
 }
@@ -66,86 +67,68 @@ nav{
     padding-top: 8.5rem;
 }
 
-
-
 /* main styling */
 
 .A{
-    display: flex;
-    gap: 1rem;
-}
-.card{
     margin-top: 4.5rem;
     margin-left: 200px;
-    padding-left: 1rem;
 }
-.chart{
-    margin-top: 5rem;
+.head{
+    padding: 4rem;
 }
-.card>img{
-    width: 590px;
-    height: 315px;
+.head h1{
+    font-size: 40px;
 }
-.chart>img{
-    width: 430px;
-    height: 300px;
+.head a{
+    text-decoration: none;
+    color: green;
 }
 
-/* bottom */
+.form{
+    padding: 2rem;
+}
 
-.B{
+form{
     display: flex;
-    gap: 2rem;
-    margin-left: 200px;
-    padding-left: 1.5rem;
-}
-
-.Ba{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 1rem;
-    padding-bottom: 0.1rem;
+    padding-top: 2rem;
 }
-
-.Bx{
-    width: 570px;
-    height: 300px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px 0;
+form input[type="text"]{
+    padding: 0.7rem;
+    width: 30rem;
+    margin-bottom: 3rem;
 }
-.B2{
+form input[type="Email"]{
+    padding: 0.7rem;
+    width: 30rem;
+}
+form input[type="number"]{
+    padding: 0.7rem;
+    width: 30rem;
+}
+.bottom{
     display: flex;
     align-items: center;
+    gap: 2rem;
+    justify-content: right;
 }
-.B2 > img{
-    width: 11px;
-    height: 5px;
+.btn{
+    display: flex;
+    justify-content: end;
 }
-table{
-    width: 100%;
-    padding-left: 1rem;
+.pass{
+    margin-top: 2rem;
 }
-table td{
-    padding-bottom: 1rem;
+.pass a{
+    text-decoration: none;
+    color: #387042;
 }
-table td:nth-child(2){
-    padding-right: 5rem;
-}
-
-.Bz{
-    background-color: #132516;
-    width: 430px;
-    height: 300px;
-    border-radius: 12px;
-    color: white;
-    text-align: center;
-}
-.Bz > .btn > a > button{
-    padding: 0.5rem;
-    border: 1px solid #387042;
-    border-radius:15px;
+button{
     background-color: #387042;
-    width:10rem;
-    color:white;
+    color: black;
+    width: 10rem;
+    padding: 0.7rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 2rem;
 }

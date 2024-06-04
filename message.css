@@ -19,6 +19,7 @@ nav{
     background-color: #D7E2D9;
     box-shadow: 0px 0.5px 10px rgb(207, 199, 199);
     position: fixed;
+    top: 0%;
     width: 100%;
     z-index: 2;
 }
@@ -66,86 +67,39 @@ nav{
     padding-top: 8.5rem;
 }
 
-
-
 /* main styling */
 
 .A{
-    display: flex;
-    gap: 1rem;
-}
-.card{
     margin-top: 4.5rem;
     margin-left: 200px;
-    padding-left: 1rem;
 }
-.chart{
-    margin-top: 5rem;
+.head{
+    padding-top: 1rem;
 }
-.card>img{
-    width: 590px;
-    height: 315px;
+a{
+    text-decoration: none;
+    color: green;
 }
-.chart>img{
-    width: 430px;
-    height: 300px;
+.form{
+    padding: 3rem;
 }
-
-/* bottom */
-
-.B{
-    display: flex;
-    gap: 2rem;
-    margin-left: 200px;
-    padding-left: 1.5rem;
+input[type='text']{
+    padding: 7rem;
+    width: 60rem;
+    position: relative;
+    margin-bottom: 2rem;
 }
-
-.Ba{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    padding-bottom: 0.1rem;
+input[type='text']::placeholder{
+    position: absolute;
+    left: 0%;
+    top: 0%;
 }
-
-.Bx{
-    width: 570px;
-    height: 300px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px 0;
-}
-.B2{
-    display: flex;
-    align-items: center;
-}
-.B2 > img{
-    width: 11px;
-    height: 5px;
-}
-table{
-    width: 100%;
-    padding-left: 1rem;
-}
-table td{
-    padding-bottom: 1rem;
-}
-table td:nth-child(2){
-    padding-right: 5rem;
-}
-
-.Bz{
-    background-color: #132516;
-    width: 430px;
-    height: 300px;
-    border-radius: 12px;
-    color: white;
-    text-align: center;
-}
-.Bz > .btn > a > button{
-    padding: 0.5rem;
-    border: 1px solid #387042;
-    border-radius:15px;
+button{
     background-color: #387042;
-    width:10rem;
-    color:white;
+    color: white;
+    width: 10rem;
+    padding: 0.7rem;
+    border: 1px solid #387042;
+    border-radius: 12px;
+    margin-top: 2rem;
 }
