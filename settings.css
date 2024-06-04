@@ -7,7 +7,6 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    overflow: hidden;
 }
 
 /* top and left navbar */
@@ -75,50 +74,57 @@ nav{
     margin-left: 200px;
 }
 .head{
+    padding: 4rem;
+}
+.head h1{
+    font-size: 40px;
+}
+
+.form{
+    padding: 2rem;
+}
+
+form{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 1rem 1.5rem;
+    padding-top: 2rem;
 }
-.head > .left{
+form input[type="text"]{
+    padding: 0.7rem;
+    width: 30rem;
+    margin-bottom: 3rem;
+}
+form input[type="Email"]{
+    padding: 0.7rem;
+    width: 30rem;
+}
+form input[type="number"]{
+    padding: 0.7rem;
+    width: 30rem;
+}
+.bottom{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    justify-content: right;
 }
-input[type='search']{
-    height: 1.5rem;
+.btn{
+    display: flex;
+    justify-content: end;
+}
+.pass{
+    margin-top: 2rem;
+}
+.pass a{
+    text-decoration: none;
+    color: #387042;
 }
 button{
-    padding: 0.5rem;
-    border: 1px solid black;
-    border-radius:5px;
     background-color: #387042;
-    width:7rem;
-    color:black;
+    color: white;
+    width: 10rem;
+    padding: 0.7rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 2rem;
 }
-
-/* table styling */
-
-table{
-    padding: 1rem;
-    font-size: 14px;
-    width: 100%;
-    border-collapse: collapse;
-    margin-left: 3rem;
-    text-align: left;
-}
-tr{
-    border-bottom: 1px rgb(241, 237, 237) solid;
-}
-th, td{
-    padding-right: 5rem;
-    padding-bottom: 3rem;
-}
-td:nth-child(5){
-    padding-left: 10rem;
-    text-align: right;
-    color: green;
-}
-
-
-

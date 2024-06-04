@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:  #387042;
+}
+
+.box{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border-radius: 12px;
+}
+p{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.form{
+    padding: 2rem;
+}
+input[type='text']{
+    width: 360px;
+    height: 60px;
+    margin-bottom: 2rem;
+}
+input[type='password']{
+    width: 360px;
+    height: 60px;
+    margin-bottom: 6rem;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+a button{
+    padding: 0.8rem 0.5rem;
+    border: 1px solid #387042;
+    border-radius:15px;
+    background-color: #387042;
+    width:10rem;
+    color:white;
+}
